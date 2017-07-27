@@ -1,0 +1,10 @@
+version: '2'
+
+services: 
+  cloud9: 
+    image: shintech/cloud9
+    container_name: cloud9
+    ports:
+      - 8000:8000
+    restart: always
+    
